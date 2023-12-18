@@ -1,0 +1,12 @@
+{
+    "Q": ["q0", "q1"
+    ],
+    "alfabet_de_intrare": ["0", "1"
+    ],
+    "sigma": [["sigma", "0", "1"],
+              ["q0", "q0", "q1"],
+              ["q1", "q1", "q0"]],
+    "stare_initiala": "q0",
+    "F": ["q1"
+    ]
+}
