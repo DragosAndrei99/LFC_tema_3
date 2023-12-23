@@ -100,8 +100,8 @@ class AFD():
             keep_reading = True if input_keep_reading == "y" else False
             self._current_state = self._initial_state
 
-
-afd = AFD("file.json")
-afd.start_AFD()
+if __name__ == '__main__':
+    afd = AFD("input_tema_3.json")
+    afd.start_AFD()
 
 
